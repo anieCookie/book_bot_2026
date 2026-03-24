@@ -118,3 +118,20 @@ pip install -r requirements.txt
 ```bash
 python -c "import nltk; nltk.download('punkt'); nltk.download('punkt_tab')"
 ```
+
+### Шаг 6. Запуск
+```bash
+python main.py
+```
+
+При первом запуске автоматически загрузится модель эмбеддингов (~2 ГБ).
+
+Успешный запуск выглядит так:
+
+```bash
+Загрузка модели эмбеддингов
+Модель загружена
+Запуск qdrant
+Qdrant готов
+INFO:aiogram.dispatcher:Start polling
+```
