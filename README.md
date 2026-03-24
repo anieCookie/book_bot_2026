@@ -119,7 +119,7 @@ pip install -r requirements.txt
 python -c "import nltk; nltk.download('punkt'); nltk.download('punkt_tab')"
 ```
 
-### Шаг 6. Запуск
+### Шаг 5. Запуск
 ```bash
 python main.py
 ```
@@ -135,3 +135,7 @@ python main.py
 Qdrant готов
 INFO:aiogram.dispatcher:Start polling
 ```
+### Шаг 6. Открыть диалог
+Откройте Telegram-бот по ссылке: @librarian_books_2026_bot
+
+*В связи с замедлением платформы рекомендуем использовать VPN*
