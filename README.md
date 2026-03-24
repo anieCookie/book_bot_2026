@@ -65,7 +65,7 @@ Telegram-бот для работы с текстами книг: загрузк
 - 2 ГБ свободного места на диске
 
 ### Структура проекта
-
+```bush
 project/
 ├── main.py                 # Точка входа
 ├── config.py               # Конфигурация
@@ -85,7 +85,7 @@ project/
 │   └── file_utils.py       # Работа с файлами
 ├── books/                  # Загруженные книги
 └── qdrant_storage/         # Данные Qdrant
-
+```
 
 ### Шаг 1. Скачивание проекта
 
@@ -100,17 +100,21 @@ Linux/macOS:
 ```bash
 python3 -m venv venv
 source venv/bin/activate
+```
 
 Windows:
 
 ```bash
 python -m venv venv
 venv\Scripts\activate
+```
 
 ### Шаг 3. Установка зависимостей
 ```bash
 pip install -r requirements.txt
+```
 
 ### Шаг 4. Загрузка данных NLTK
 ```bash
 python -c "import nltk; nltk.download('punkt'); nltk.download('punkt_tab')"
+```
