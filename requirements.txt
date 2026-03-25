@@ -1,0 +1,14 @@
+aiogram==3.7.0
+
+aiosqlite==0.20.0
+qdrant-client==1.9.1
+
+mistralai==1.12.4
+
+sentence-transformers==2.7.0
+transformers==4.41.2
+nltk==3.8.1
+torch>=2.1.0
+
+numpy==1.26.4
+chardet==5.2.0
